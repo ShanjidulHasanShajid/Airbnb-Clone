@@ -1,4 +1,7 @@
+import { CgProfile } from "react-icons/cg";
+import { FiMenu } from "react-icons/fi";
 import { LuGlobe } from "react-icons/lu";
+import { FaUserCircle } from "react-icons/fa";
 import "./App.css";
 
 function Navbar() {
@@ -11,11 +14,19 @@ function Navbar() {
         <p>
           <strong>Stays</strong>
         </p>
-        <p>Experience</p>
+        <p>Experiences</p>
       </div>
       <div className="navigator">
-        <p>Airbnb your home</p>
-        <LuGlobe />
+        <div className="navEnclosure">
+          <p>Airbnb your home</p>
+          <LuGlobe />
+          <div className="dropDown">
+            <FiMenu className="hambugerMenu"/>
+            <FaUserCircle className="profileIcon" />
+          </div>
+
+        </div>
+        
       </div>
     </div>
   );
