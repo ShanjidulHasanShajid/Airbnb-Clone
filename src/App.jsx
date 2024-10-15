@@ -1,5 +1,5 @@
-import "./App.css";
 import { LuGlobe } from "react-icons/lu";
+import "./App.css";
 
 function Navbar() {
   return (
