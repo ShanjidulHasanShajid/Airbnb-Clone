@@ -1,7 +1,10 @@
 #root {
-  /* padding: 0px 50px 0px 50px; */
-  margin: 0px 80px 0px 80px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+.main{
+  margin: 0;
+  padding: 0;
 }

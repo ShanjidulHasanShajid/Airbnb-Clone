@@ -1,73 +1,72 @@
 
 .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-    letter-spacing: -0.5px;
-    /* background-color: cadetblue; */
-  }
-  
-  .navigator{
-    display: flex;
-    align-items: center;
-    justify-content: end;
-  }
-  
-  .dropDown{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  
-  .navEnclosure {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .navEnclosure{
-    /* background-color: blue; */
-    width: 50%;
-  }
-  
-  .navigator,
-  .logo {
-    width: 37vw;
-    /* background-color: bisque; */
-  }
-  
-  .dropDown{
-    width: 80px;
-    height: 45px;
-    border: 1px solid #6a6a6a;
-    border-radius: 30px;
-  }
-  
-  .dropDown:hover{
-    box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.2), 2px 2px 4px rgba(0, 0, 0, 0.2);
-  }
-  
-  .logo img {
-    width: 100px;
-  }
-  
-  .hambugerMenu{
-    font-size: 17px;
-    color: #6a6a6a;
-  }
-  
-  .profileIcon{
-    font-size: 30px;
-    color: #6a6a6a;
-  }
-  
-  .options {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-grow: 1;
-    font-size: 1rem;
-    font-weight: 500;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  letter-spacing: -0.5px;
+  background-color: cadetblue;
+}
+
+.navigator{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.dropDown{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navEnclosure {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navEnclosure{
+  /* background-color: blue; */
+  width: 50%;
+}
+
+.navigator,
+.logo {
+  width: 37vw;
+  /* background-color: bisque; */
+}
+
+.dropDown{
+  width: 80px;
+  height: 45px;
+  border: 1px solid #6a6a6a;
+  border-radius: 30px;
+}
+
+.dropDown:hover{
+  box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.2), 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logo img {
+  width: 100px;
+}
+
+.hambugerMenu{
+  font-size: 17px;
+  color: #6a6a6a;
+}
+
+.profileIcon{
+  font-size: 30px;
+  color: #6a6a6a;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  font-size: 1rem;
+  font-weight: 500;
+}
